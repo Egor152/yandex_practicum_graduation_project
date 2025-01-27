@@ -13,7 +13,7 @@ log = logging.getLogger(__name__)
 # Хотел сделать подключение в Aifrlow, чтобы в коде не писать кредиты, но через Airflow ловлю ошибку, что токен устарел
 AWS_ACCESS_KEY_ID = 'Скрыл по просьбе Яндекс Практикума'
 AWS_SECRET_ACCESS_KEY = 'Скрыл по просьбе Яндекс Практикума'
-bucket = 'final-project'
+bucket = 'Скрыл по просьбе Яндекс Практикума'
 
 def fetch_s3_file(bucket: str, key: str) -> str:
     session = boto3.session.Session()
